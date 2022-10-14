@@ -11,6 +11,8 @@
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
 .container {
@@ -21,3 +23,16 @@
 .container__imagem {
     padding: 1em;
 }
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+/*Til é um combinador e procura a próxima classe informada. É o caso
+mais próximo de chegar em uma condicional*/
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+
