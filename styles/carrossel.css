@@ -46,15 +46,9 @@
     padding: 2em;
 }
 
-.descricao__texto , .descricao__titulo , .descricao__texto {
-    padding: 1em;
-
-}
-
 .descricao__titulo {
     color: var(--laranja);
     font-weight: 700;
-    font-size: 32px;
 }
 
 .descricao__titulo-livro {
@@ -70,7 +64,7 @@
 }
 
 .botoes__item {
-    margin: 0.5em;
+    margin: 0 0.5em;
 
 }
 

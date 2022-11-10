@@ -1,6 +1,6 @@
 .cabecalho__menu-hamburger {
-    width: 42px;
-    height: 42px;
+    width: 24px;
+    height: 24px;
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +28,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 65vw;
+    width: 60vw;
 }
 /*Til é um combinador e procura a próxima classe informada. É o caso
 mais próximo de chegar em uma condicional*/
